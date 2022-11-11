@@ -1,0 +1,88 @@
+<!Doctype html>
+
+<head>
+	<title>
+		Contact Us
+	</title>
+	<link rel="stylesheet" href="contact.css"/>
+	<script src="contact.js"></script>
+  <link rel="shortcut icon" href="./logo.jpeg" type="image/svg+xml">
+</head>
+
+<body>
+		<div class="leftnavbar">
+			<div class="header">
+				<div id="name">
+					<a href="home.html" style="color: black; text-decoration: dashed;"> Tourest </a>
+				</div>
+				<div id="form">
+					<form>
+						<input type="type" id="searchbar" placeholder="Search"></input>
+					</form>
+				</div>
+			</div>
+
+			<a href="index.html" style="color: black; text-decoration: dashed;"><button id="Home" type="button">Home</button></a>
+			<a href="contact.html" style="border-left: 3px solid #005af0;"><button id="Contact" type="button">Contact</button></a>
+			<a href="privacy.html"><button id="Privacy" type="button">Privacy</button></a>
+			<a href="about.html"><button id="About" type="button">About</button></a>
+      <a href="terms.html"><button id="tnc" type="button">Terms and conditions</button></a>
+			
+		</div>
+	<div class="info_page">
+
+  <div class="contact-container">
+      <div class="contact-left">
+        <h2 class="contact-left-heading">Contact Us Here</h2>
+
+        <form action="#" onsubmit="msg();">
+          <div class="form-element">
+            <input type="text" id="contact-name" class="form-input" placeholder="Full Name">
+          </div>
+
+          <div class="form-element">
+            <input type="text" id="contact-email" class="form-input" placeholder="E-Mail">
+          </div>
+
+          <div class="form-element">
+            <textarea
+              name=""
+              id="contact-message"
+              cols="30"
+              rows="10"
+              class="form-input" placeholder="Your Message"
+            ></textarea>
+          </div>
+
+          <input type="submit" class="form-btn" value="Send" />
+        </form>
+      </div>
+      <div class="contact-right">
+        <h2>Or Here</h2>
+
+        <p>
+          <strong>Email:</strong>
+        </p>
+        <p><b>Deepesh Gupta</b></p>
+        <a href="B211028@skit.ac.in"><p>B211028@skit.ac.in</p></a>
+        <p><b>Digmber Singh</b></p>
+        <a href="B210733@skit.ac.in"><p>B210733@skit.ac.in</p></a>
+        <p><b>Dharamveer Singh Shekhawat</b></p>
+        <a href="B210369@skit.ac.in"><p>B210369@skit.ac.in</p></a>
+        <p><b>Gaurav Jangid</b></p>
+       <a href="B210654@skit.ac.in"> <p>B210654@skit.ac.in</p></a>
+        <br />
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+    
+</div>
+<script>
+  function msg(){
+      alert('We Will contact you soon !!');
+  }
+</script>
+</body>
+
+</html>
